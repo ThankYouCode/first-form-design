@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Google</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Start form show in center  -->
+    <form action="login" method="post">
+
+        <!-- Heding -->
+        <h1>ThankYouCode</h1>
+
+        <!-- User inputs -->
+        <p>
+            <span>Name:</span>
+            <span><input class="input-box name-input" type="text"></span>
+        </p>
+        <p>
+            <span>Password:</span>
+            <span><input class="input-box" type="password"></span>
+        </p>
+        <p>
+            <span>Address:</span>
+            <span><input class="input-box address-input" type="text"></span>
+        </p>
+        <p>
+            <span>City:</span>
+            <span>
+                <select class="input-box city-input" name="city" id="city">
+                    <option value="delhi" selected>Delhi</option>
+                    <option value="kolkata">Kolkata</option>
+                    <option value="mumbai">Mumbai</option>
+                    <option value="jaipur">Jaipur</option>
+                    <option value="patan">Patan</option>
+                </select>
+            </span>
+        </p>
+        <p>
+            <span>Contect:</span>
+            <span><input class="input-box contect-input" type="number"></span>
+        </p>
+        <p>
+            <span>Gander:</span>
+            <span><input type="radio" name="gander" checked>Male</span>
+            <span><input type="radio" name="gander">Female</span>
+        </p>
+        <p>
+            <span>Hobby:</span>
+            <span><input type="checkbox" checked>Programming</span>
+            <span><input type="checkbox">Learning</span>
+            <span><input type="checkbox">Coding</span>
+            <span><input type="checkbox">Web Serfing</span>
+        </p>
+
+        <!-- Three Buttons -->
+        <p>
+            <button type="submit">Save</button>
+            <button type="reset">Clear</button>
+        </p>
+        <p>
+            <button type="submit">Go</button>
+        </p>
+    </form>
+</body>
+</html>
